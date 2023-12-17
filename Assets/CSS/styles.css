@@ -51,6 +51,37 @@ a.nav-link:hover {
 /*----------
 Hero Section
 ----------*/
+section.hero {
+  height: 100vh;
+  padding-top: 85px;
+}
+
+.socials {
+  margin-left: -22px;
+}
+
+.socials a {
+  color: var(--main-color);
+  font-size: 25px;
+}
+.socials a:hover {
+  color: var(--secondary-color);
+}
+
+section.hero h1 {
+  font-size: 80px;
+  color: var(--main-color);
+}
+
+section.hero .sub-heading {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+section.hero figure img {
+  height: 310px;
+  width: auto;
+}
 
 /*----------
 About Section
