@@ -1,3 +1,64 @@
-/* font-family: 'Bitter', serif;
-font-family: 'Montserrat', sans-serif;
+/* 
 font-family: 'Playfair Display', serif; */
+/*----------
+Variable Styling
+----------*/
+:root {
+  --main-color: #141c34;
+  --secondary-color: #007991;
+  --neutral-grey: #e1e1e1;
+}
+
+/*----------
+General Styling
+----------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bitter", serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*----------
+Navbar
+----------*/
+.navbar a.navbar-brand {
+  font-family: "Playfair Display", serif;
+  color: var(--main-color);
+}
+
+a.nav-link {
+  color: var(--main-color);
+  font-weight: 700;
+  margin-left: 1.5rem;
+}
+
+a.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+/*----------
+Hero Section
+----------*/
+
+/*----------
+About Section
+----------*/
+
+/*----------
+Work Section
+----------*/
+
+/*----------
+Contact Section
+----------*/
+
+/*----------
+Footer
+----------*/
