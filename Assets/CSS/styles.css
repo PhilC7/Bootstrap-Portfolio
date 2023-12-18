@@ -99,6 +99,10 @@ section.hero figure img {
 /*----------
 About Section
 ----------*/
+.about {
+  background-color: var(--neutral-grey);
+}
+
 section.about .skills .skill-icon {
   font-size: 50px;
   color: var(--secondary-color);
