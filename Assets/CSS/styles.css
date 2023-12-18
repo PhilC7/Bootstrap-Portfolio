@@ -164,7 +164,9 @@ Work Section
 /*----------
 Contact Section
 ----------*/
-
+.contact {
+  background-color: var(--neutral-grey);
+}
 /*----------
 Footer
 ----------*/
