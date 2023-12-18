@@ -33,10 +33,16 @@ h2 {
   font-size: 40px;
   font-weight: 900;
   color: var(--main-color);
+  text-align: center;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 /*----------
@@ -167,6 +173,37 @@ Contact Section
 .contact {
   background-color: var(--neutral-grey);
 }
+
+.contact .sub-heading {
+  color: var(--secondary-color);
+}
 /*----------
 Footer
 ----------*/
+
+footer {
+  background-color: var(--secondary-color);
+  height: 75px;
+}
+
+footer h6 {
+  font-weight: 400;
+  color: var(--main-color);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+footer h6 span {
+  font-weight: 700;
+}
+
+footer a {
+  margin-left: 2rem;
+  color: var(--main-color);
+  font-size: 25px;
+}
+
+footer a:hover {
+  color: var(--neutral-grey);
+  box-shadow: 0px 0px 5px 5px var(--main-color);
+}

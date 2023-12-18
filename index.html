@@ -61,7 +61,7 @@
       <section class="hero" id="home">
         <div class="container h-100">
           <div
-            class="row h-100 d-flex flex-lg-row justify-content-start justify-content-md-center flex-column-reverse"
+            class="row h-100 d-flex flex-lg-row justify-content-center justify-content-md-center flex-column-reverse"
           >
             <div
               class="col-lg-6 d-flex flex-column justify-content-center align-items-lg-start align-items-center text-center"
@@ -101,7 +101,7 @@
       <section class="about" id="about">
         <div class="container vh-100 d-flex flex-column justify-content-center">
           <div class="row">
-            <h2 class="my-3">About</h2>
+            <h2 class="mb-5">About</h2>
           </div>
           <div class="row">
             <div class="col-12 col-md-6">
@@ -145,9 +145,9 @@
       Work Section
     ---------->
       <section class="work" id="work">
-        <div class="container vh-100 my-5">
+        <div class="container my-5 vh-md-100 d-flex flex-column justify-content-center">
           <div class="row">
-            <h2 class="my-3">Work</h2>
+            <h2 class="my-5">Work</h2>
           </div>
           <div class="row card-items gy-3">
             <div class="card col-lg-8 col-md-6 col-sm-12">
@@ -276,11 +276,13 @@
       Contact Section
     ---------->
     <section class="contact" id="contact">
-      <div class="container vh-100">
+      <div class="container vh-100 d-flex flex-column justify-content-center">
         <div class="row">
-            <h2 class="my-3">Contact</h2>
+            <h2 class="mb-5">Contact</h2>
         </div>
         <div class="row">
+          <p class="sub-heading mb-3 col-sm-12 col-md-6 px-md-5 align-self-center text-sm-center">If you would like to collaborate or even say hello.
+            Please get in touch.</p>
           <form class="col-sm-12 col-md-6">
             <div class="mb-3">
               <label for="emailInput" class="form-label">Email address</label>
@@ -290,15 +292,31 @@
               <label for="messageInput" class="form-label">Enter your message</label>
               <textarea class="form-control" id="messageInput" rows="3"></textarea>
             </div>
-            
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Send Message</button>
             </div>
           </form>
         </div>
       </div>
 
     </main>
+    <footer class="py-auto">
+      <div class="container d-flex justify-content-between align-items-center h-100">
+        <h6><span>{P}</span> | Copyright © 2023 | All Rights Reserved</h6>
+        <div class="socials-footer">
+          <a href="www.linkedin.com/in/phil-cooper7" target="_blank" class="mx-4"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/PhilC7" target="_blank" class="mx-4"
+                  ><i class="fa-brands fa-square-github"></i
+                ></a>
+                <a href="#" target="_blank" class="mx-4"><i class="fa-brands fa-figma"></i></a>
+                <a href="#" target="_blank" class="mx-4"
+                  ><i class="fa-brands fa-dribbble"></i
+                ></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap Scripts -->
     <script
