@@ -14,6 +14,7 @@ html {
 
   /* add scroll padding to stop section heading sitting behind the navbar */
   scroll-padding-top: 85px;
+  box-sizing: border-box;
 }
 
 /*----------
@@ -112,28 +113,52 @@ section.about .skills .skill-icon {
 Work Section
 ----------*/
 .card {
-  padding: 0;
   max-height: 200px;
   overflow: hidden;
   border: none;
+  border-radius: 0;
 }
+
 .work .card-items .card img {
   height: auto;
   width: 100%;
   object-fit: cover;
+  border-radius: 0;
+}
+
+.work .card-items .card img.horiseon {
+  height: 110%;
 }
 
 .card-img-overlay {
-  background-color: rgba(225, 225, 225, 0.8);
+  background-color: rgba(225, 225, 225, 0.7);
+  opacity: 0;
+  border-radius: 0;
+  margin: 0 12px;
+  transition: all 0.4s ease-in-out;
 }
 
-.card-img-overlay h5 {
+.card-img-overlay:hover {
+  opacity: 1;
+}
+
+.card-img-overlay h3,
+.mobile-card-text h3 {
   font-weight: 900;
   color: var(--main-color);
 }
 
-.card-img-overlay p {
+.card-img-overlay p,
+.mobile-card-text p {
   color: var(--secondary-color);
+}
+
+.mobile-card-text {
+  position: absolute;
+  bottom: 15px;
+  background-color: rgba(225, 225, 225, 0.7);
+  padding: 10px;
+  max-width: 90%;
 }
 
 /*----------
