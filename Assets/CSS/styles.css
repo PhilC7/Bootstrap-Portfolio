@@ -194,7 +194,7 @@ Footer
 
 footer {
   background-color: var(--secondary-color);
-  height: 75px;
+  height: 100px;
 }
 
 footer h6 {
@@ -209,7 +209,7 @@ footer h6 span {
 }
 
 footer a {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   color: var(--main-color);
   font-size: 25px;
 }
