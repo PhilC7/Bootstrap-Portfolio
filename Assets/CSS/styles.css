@@ -214,6 +214,7 @@ footer a {
   font-size: 25px;
 }
 
-footer a:hover {
+footer a:hover i {
   color: var(--neutral-grey);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
